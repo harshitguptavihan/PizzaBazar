@@ -1,0 +1,30 @@
+http://localhost/pizza/pgRedirect.php?ORDER_ID=11&&CUST_ID=12&&INDUSTRY_TYPE_ID=13&&CHANNEL_ID=14&&TXN_AMOUNT=15
+
+eamil
+
+
+insert into supreme(DishName,DishPath,DishMetarial,DishPrice)values('','','','')
+
+create table supreme (DishId int(6) primary key auto_increment,DishName varchar(60),DishPath varchar(200),DishMetarial varchar(250),DishPrice float(6,2),DishStander varchar(60),Crust varchar(30),Size varchar(30));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+if(isset($_POST['sub']))
+{
+	$_SESSION['email']=$_POST['email'];
+	$_SESSION['password']=$_POST['password'];
+}
+else {
+	header('location:aloginform.html' );
+}

@@ -1,0 +1,151 @@
+
+/* NAVEBAR START */
+.navbar-nav >li>a{
+	color:White;
+	background-color:;
+	font-family:interstateregular;
+}
+.navbar-nav >li>a:hover{
+	color:black;
+	background-color:white;
+}
+.navbar-nav >li>a:focus{
+	color:White;
+	background-color:Red;
+}
+
+
+
+
+/* NAVEBAR END */
+
+
+
+/* PANNEL START*/
+.p:{
+	border:5px solid black;
+	
+}
+.p:hover{
+	
+	border:5px solid ;
+	
+}
+/* PANNEL END*/
+/* FOOTER CSS START */
+.btm-option{
+	display:block;
+	color:white;
+}
+.btm-option:hover
+{
+	color:red;
+}
+.btm-heading{
+	font-weight:bold;
+	font-size:16px;
+	color:#949494;
+}
+.btm-socialf{
+	
+	height:35px;
+	border-radius:35px;
+	line-height:35px;
+	width:35px;
+	display:inline-block;
+	color:white;
+	background-color:#16223A;
+	}
+.btm-socialf:hover{
+	
+	height:35px;
+	border-radius:35px;
+	line-height:35px;
+	width:35px;
+	display:inline-block;
+	background-color:white;
+	color:#16223A;
+}
+.btm-socialt{
+	
+	height:35px;
+	border-radius:35px;
+	line-height:35px;
+	width:35px;
+	display:inline-block;
+	color:white;
+	background-color:#43B4E4;
+	}
+.btm-socialt:hover{
+	
+	height:35px;
+	border-radius:35px;
+	line-height:35px;
+	width:35px;
+	display:inline-block;
+	background-color:white;
+	color:#43B4E4;
+}
+.btm-socialy{
+	
+	height:35px;
+	border-radius:35px;
+	line-height:35px;
+	width:35px;
+	display:inline-block;
+	color:white;
+	background-color:#FE3431;
+	}
+.btm-socialy:hover{
+	
+	height:35px;
+	border-radius:35px;
+	line-height:35px;
+	width:35px;
+	display:inline-block;
+	background-color:white;
+	color:#FE3431;
+}
+/* FOOTER CSS END */
+
+
+
+
+
+
+
+/* MODEL BOX START */
+.closebtn{
+	background-color:gold;
+	border:none;
+	height:40px;
+	width:60px;
+	border-radius:5px;
+	font-family:interstateregular;
+	font-size:20px;
+	color:white;
+	margin-top:20px;
+}
+closebtn:hover{
+	border-radius:5px;
+	border:3px solid #1B064F;
+}
+/* MODEL BOX END */
+/* Sign In form CSS Start */
+input:invalid{
+	color:red;
+}
+input,
+input:valid{
+	color:black;
+}
+/* Sign In form CSS END */
+
+
+
+
+
+
+
+
+
